@@ -1,6 +1,28 @@
-# Real Estate Price Prediction App
 
-This project is part of the CST2216 Individual Term Project. It predicts real estate prices using a Linear Regression model trained on property data. The project is built in a modular fashion and is deployed as a Streamlit app.
+# Real Estate Price Prediction 🏠
 
-## Project Structure
+## Overview
+An intuitive web application built with Streamlit to predict real estate prices using linear regression.
+
+## 📁 Project Structure
+```
+.
+├── app.py
+├── scripts
+│   └── train.py
+├── models
+│   └── model.pkl
+├── utils
+│   ├── preprocessing.py
+│   └── logger.py
+└── data
+    └── final.csv
+```
+
+## 🚧 Setup Instructions
+- Clone repository and install dependencies with `pip install -r requirements.txt`
+- Run Streamlit app with `streamlit run app.py`
+
+## 🛠️ Technologies
+- Python, Pandas, Scikit-learn, Streamlit
 
