@@ -1,8 +1,8 @@
 
-# Real Estate Price Prediction 🏠
+# Customer Segmentation using Clustering 📊
 
 ## Overview
-An intuitive web application built with Streamlit to predict real estate prices using linear regression.
+A clustering-based web application using Streamlit to perform customer segmentation. The app uses the KMeans algorithm for customer clustering.
 
 ## 📁 Project Structure
 ```
@@ -16,7 +16,7 @@ An intuitive web application built with Streamlit to predict real estate prices 
 │   ├── preprocessing.py
 │   └── logger.py
 └── data
-    └── final.csv
+    └── mall_customers.csv
 ```
 
 ## 🚧 Setup Instructions
