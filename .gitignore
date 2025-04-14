@@ -1,0 +1,17 @@
+# Ignore Python cache and bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+fresh_env/
+
+# Ignore VS Code settings folder
+.vscode/
+
+# Optionally ignore model files (uncomment to not push them)
+# models/*.pkl
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
